@@ -10,4 +10,9 @@
   <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white"/>
 </div>
 
-TBC
+## TODO
+- [ ] readme
+- [ ] change welcome text from question to Hi {username}! (with typing animation)
+- [ ] if username saved -> dont ask for username, just say hi and log in
+- [ ] loading animation and route to home
+- [ ] home site
