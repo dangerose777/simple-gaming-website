@@ -10,9 +10,49 @@
   <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white"/>
 </div>
 
+> [!WARNING]
+> The website is still unfinished.
+
+## ℹ️ About website
+The website has 2 pages: Welcome & Home.  <br>
+On the Welcome page there is a simple input field to enter username, which is stored in local storage.  <br>
+The Home page has a list of games which is taken from JSON.  <br>
+> [!NOTE]
+> The site is not designed for phones/tablets, but when you visit it on your phone, a message appears informing you of this.
+
+## ✨ Features
+- 💫 Each game container is located on the home page and appears when you hover over the game banner.
+
+## 📸 Screenshots
+<p>-</p>
+<!-- <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;"> -->
+  <!-- <img src="screenshots/none.png" style="width: 47%; max-width: 400px; border-radius: 8px;" /> -->
+  <!-- <img src="screenshots/none.png" style="width: 47%; max-width: 400px; border-radius: 8px;" /> -->
+  <!-- <img src="screenshots/none.png" style="width: 47%; max-width: 400px; border-radius: 8px;" /> -->
+  <!-- <img src="screenshots/none.png" style="width: 47%; max-width: 400px; border-radius: 8px;" /> -->
+<!-- </div> -->
+
+## 🛠️ Installation
+
+```
+git clone https://github.com/dangerose777/simple-gaming-website.git
+```
+```
+cd simple-gaming-website
+```
+```
+npm i
+```
+
+## 👍 Run
+
+```
+npm run dev
+```
+
 ## TODO
-- [ ] readme
-- [ ] change welcome text from question to Hi {username}! (with typing animation)
+- [ ] change welcome text from question to Hi {username}! (with typing animation) after pressing the button
 - [ ] if username saved -> dont ask for username, just say hi and log in
 - [ ] loading animation and route to home
 - [ ] home site
+- [ ] json file with data

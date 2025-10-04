@@ -1,0 +1,33 @@
+.background-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 50%;
+    filter: blur(3px);
+}
+
+#text1 {
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.1);
+    top: 20%;
+    left: 10%;
+    transform: rotate(-12deg);
+    user-select: none;
+}
+#text2 {
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.1);
+    top: 70%;
+    left: 70%;
+    transform: rotate(-5deg);
+    user-select: none;
+}
+#text3 {
+    font-size: 82px;
+    color: rgba(255, 255, 255, 0.1);
+    top: 40%;
+    left: 40%;
+    transform: rotate(5deg);
+    user-select: none;
+}

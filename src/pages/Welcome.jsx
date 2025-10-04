@@ -1,7 +1,8 @@
 import React, { use, useEffect } from 'react'
-import './Welcome.css'
 import { FaPlay } from "react-icons/fa";
+import './Welcome.css'
 import '../components/Blobs.css'
+import '../components/BackgroundTexts.css'
 
 function Welcome() {
   const [showText, setShowText] = React.useState(false);
@@ -23,6 +24,7 @@ useEffect(() => {
 }, []);
 
 const [username, setUsername] = React.useState("");
+
   return (
     <>
       <div className="background-blobs">
@@ -30,6 +32,12 @@ const [username, setUsername] = React.useState("");
         <div className="blob" id='blob2'></div>
         <div className="blob" id='blob3'></div>
         <div className="blob" id='blob4'></div>
+      </div>
+
+      <div className="background-texts">
+        <h1 className='background-text' id='text1'>{username}</h1>
+        <h1 className='background-text' id='text2'>{username}</h1>
+        <h1 className='background-text' id='text3'>{username}</h1>
       </div>
 
       <div className="form-container">
