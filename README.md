@@ -1,7 +1,6 @@
 <div id="start" align="center">
-  <!-- <img src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/1024px/1f47e.png" width="120"></img> -->
   <h1>Simple Gaming Website</h1>
-  <p>PS3-style gaming website.</p>
+  <p>PS3-style gaming website</p>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
